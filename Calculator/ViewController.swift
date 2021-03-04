@@ -63,6 +63,8 @@ class ViewController: UIViewController {
         Result = true
         operation = ""
     }
+    
+    //Manage all the signs pressed
     @IBAction func processOperation(_ sender: UIButton) {
            if let operationText = sender.titleLabel?.text {
                if operation.isEmpty {
